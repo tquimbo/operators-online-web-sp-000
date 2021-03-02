@@ -1,15 +1,20 @@
 def unsafe?(speed)
-speed = 50
-40 > speed > 60 ? return true : return false
+if 40 > speed > 60
+	return true
+else 
+	return false 
+	
 
 end
 
 
 
-# def not_safe?(speed)
-#
-# end
-#
+def not_safe?(speed)
+	speed = 50
+	40 > speed > 60 ? return true : return false
+
+end
+
 
 #
 # age = 1

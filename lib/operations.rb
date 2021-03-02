@@ -1,8 +1,8 @@
 def unsafe?(speed)
 
-if 40 > speed > 60  ? action_if_true : action_if_false
+if 40 > speed > 60 ? return true : return false
 
-
+end
 end
 
 
